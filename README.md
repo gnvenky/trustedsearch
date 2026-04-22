@@ -105,7 +105,7 @@ For auditability, web-sourced documents are stored locally as JSON with the orig
 
 ```mermaid
 flowchart TD
-    A["Oracle public sources manifest"] --> B["Web crawler"]
+    A["Any public sources manifest"] --> B["Web crawler"]
     B --> C["Local cached corpus (JSON)"]
     C --> D["Chunking + metadata extraction"]
     D --> E["SQLite FTS5 index"]

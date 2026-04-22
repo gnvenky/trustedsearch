@@ -102,3 +102,19 @@ For auditability, web-sourced documents are stored locally as JSON with the orig
 - ACL-aware filtering
 - hybrid retrieval with confidence scoring
 - citation-first answer output
+
+```mermaid
+flowchart TD
+    A["Oracle public sources manifest"] --> B["Web crawler"]
+    B --> C["Local cached corpus (JSON)"]
+    C --> D["Chunking + metadata extraction"]
+    D --> E["SQLite FTS5 index"]
+    D --> F["Local vector index (vectors.json)"]
+    G["User question"] --> H["Hybrid retrieval engine"]
+    E --> H
+    F --> H
+    H --> I["Rank fusion + confidence"]
+    I --> J["Grounded answer + citations"]
+    J --> K["CLI or web UI"]
+
+```

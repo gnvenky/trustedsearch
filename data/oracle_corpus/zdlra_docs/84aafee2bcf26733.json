@@ -1,0 +1,15 @@
+{
+  "title": "Overview of Backing Up Protected Databases",
+  "text": "Overview of Backing Up Protected Databases\nPrevious Next JavaScript must be enabled to correctly display this content\nOverview of Backing Up Protected Databases\nAfter you configure the protected database, you can create and schedule protected database backups. Recovery Appliance uses the incremental-forever backup strategy for protected database backups. In this strategy, an initial level 0 incremental backup is followed by successive level 1 incremental backups.\nTo ensure that you can perform complete recovery for the protected database, include archived redo log files in all backups except when using real-time redo transport. While real-time redo transport sends archive logs to the Recovery Appliance , archive log backup operations of \u201dnot backed up\u201d files is still recommended.\nEnterprise Manager Cloud Control (Cloud Control) provides a GUI for creating and scheduling backup jobs. When using the command line, create a script containing the RMAN backup commands required to implement your backup strategy and then schedule this script using any scheduling utility.\nNote:\nDo not take any backups of a database that is in Standby Snapshot mode.\nYou can backup a TDE encrypted database to the Recovery Appliance . Using normal DBMS operations, you can select tablespaces to be converted to TDE Tablespace Encryption . Afterwards, the Recovery Appliance can provide an incremental forever strategy that covers both an unencrypted recovery window and an encrypted recovery window. However, you must follow the Oracle Database Advanced Security Guide to perform an explicit incremental level 0 backup of the database after the tablespace has been encrypted. This strategy increases the storage space needed, because encrypted blocks cannot be compressed.\nMulti-tenant databases can be backed up to Recovery Appliances from the container (CDB) or the pluggable database (PDB), starting with release 19.2.1.1.1.202001.\nNote:\nTo preserve the CDB restore range, after a new PDB is plugged in and while still in read-only mode, you must take a level 1 backup of either the CDB or PDB. After the backup, the newly plugged in PDB can be made read-write . Thereafter, normal level 1 backups can be taken of the CDB.\nMore information on Multitenant Database backup and recovery can be found in Oracle Database Backup and Recovery User\u2019s Guide .\nNote:\nIf the protected database is running in NOARCHIVELOG mode, then you must perform consistent backups which requires shutting down the protected database.\nSee Also:\n\" Configuring Protected Databases \"\n\" About the Recovery Appliance Incremental-Forever Backup Strategy \"",
+  "source_uri": "https://docs.oracle.com/en/engineered-systems/zero-data-loss-recovery-appliance/23.1/ampdb/overview-backing-protected-databases.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "zdlra",
+    "recovery-appliance",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

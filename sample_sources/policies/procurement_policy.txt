@@ -1,0 +1,5 @@
+Procurement Policy
+
+All purchases above $50,000 require dual approval from the department owner and finance.
+Every request must include vendor name, business justification, and the expected renewal date.
+Search systems should return the policy source and line-level citation when summarizing approval rules.

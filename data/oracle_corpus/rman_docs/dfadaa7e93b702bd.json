@@ -1,0 +1,16 @@
+{
+  "title": "Changes in This Release for Backup and Recovery Reference",
+  "text": "Changes in This Release for Backup and Recovery Reference\nPrevious Next JavaScript must be enabled to correctly display this content\nChanges in This Release for Backup and Recovery Reference\nThis preface contains:\nChanges in Oracle Database Release 19c\nChanges in Oracle Database Release 18c, Version 18.1\nChanges in Oracle Database Release 19c\nThe following are changes in Oracle Database Backup and Recovery Reference for Oracle Database release 19c.\nNew Features\nPLUGGABLE DATABASE clause in GRANT and REVOKE commands\nYou can grant and revoke privileges on a specific PDB to a database user. See GRANT and REVOKE .\nRecovery catalog support for PDBs\nYou can connect to the recovery catalog when you are connected to a target PDB.\nSee CONNECT .\nDeprecated Features\nStarting in Oracle Database 19c, the Data Recovery Advisor (DRA) feature is deprecated.\nThe deprecation of DRA includes deprecation of the following Oracle Recovery Manager (RMAN) commands: LIST FAILURE , ADVISE FAILURE , REPAIR FAILURE , and CHANGE FAILURE . Database administrators will no longer have access to these commands. There is no replacement feature for DRA.\nThe RECOVER\u2026SNAPSHOT TIME method of recovering a database to a point in time using a particular snapshot is deprecated in Oracle Database 19c.\nInstead of RECOVER\u2026SNAPSHOT TIME , Oracle recommends that you use ALTER DATABASE BEGIN/END BACKUP before and after creating the storage snapshot of the data files and then use RECOVER .. UNTIL TIME to a specific timestamp or system change number (SCN) after the END BACKUP completion time. Oracle recommends that ALTER DATABASE BEGIN/END BACKUP always be used when performing snapshots on a running database to ensure data recovery integrity. Archived log redo logs must be separately backed up and restored for recovery operations.\nSee Recovery Using Storage Snapshot Optimization in the Backup and Recovery User's Guide for detailed examples.\nChanges in Oracle Database Release 18c, Version 18.1\nThe following are changes in Oracle Database Backup and Recovery Reference for Oracle Database release 18c, version 18.1.\nNew Features\nDuplicate PDBs to an existing CDB\nThe DUPLICATE PLUGGABLE DATABASE command is used to duplicate a PDB to an existing CDB.\nSee Also:\nDUPLICATE\nDuplicate databases to Oracle Cloud\nAn on-premises database can be duplicated to Oracle Cloud. Similarly, you can duplicate a database in Oracle Cloud as an on-premises database.\nSee Also:\nAS ENCRYPTED and AS DECRYPTED clauses in DUPLICATE\nRMAN backups usable after migration\nRMAN backups of a non-CDB or PDB that were created before the non-CDB or PDB was migrated and plugged in to a different target CDB can be used for recovery operations in the target CDB.\nSee Also:\nBACKUP\nRESTORE\nRECOVER",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/19/rcmrf/release-changes.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

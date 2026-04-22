@@ -1,0 +1,16 @@
+{
+  "title": "Zero Data Loss Recovery Appliance",
+  "text": "Zero Data Loss Recovery Appliance\nPrevious Next JavaScript must be enabled to correctly display this content\nZero Data Loss Recovery Appliance\nThe cloud-scale Zero Data Loss Recovery Appliance, commonly known as Recovery Appliance, is an engineered system designed to dramatically reduce data loss and backup overhead for all Oracle databases in the enterprise.\nIntegrated with Recovery Manager (RMAN), the Recovery Appliance enables a centralized, incremental-forever backup strategy for large numbers of databases, using cloud-scale, fault-tolerant hardware and storage. The Recovery Appliance continuously validates backups for recoverability.\nRecovery Appliance is the MAA-preferred backup and recovery appliance because:\nElimination of data loss when restoring from Recovery Appliance\nMinimal backup overhead\nImproved end-to-end data protection visibility\nCloud-scale protection\nIntegrates very well with all MAA reference architectures including Oracle Sharding tier\nSee Also:\nZero Data Loss Recovery Appliance Documentation",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/26/haovw/zero-data-loss-recovery-appliance.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

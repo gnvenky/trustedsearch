@@ -1,0 +1,15 @@
+{
+  "title": "Overview of Restoring and Recovering Data from the Recovery Appliance",
+  "text": "Overview of Restoring and Recovering Data from the Recovery Appliance\nPrevious Next JavaScript must be enabled to correctly display this content\nOverview of Restoring and Recovering Data from the Recovery Appliance\nYou can recover the entire protected database, one or more data files, or one or more tablespaces. If only certain data blocks in the protected database are corrupt, then you can perform block recovery to repair only the corrupted blocks. The recovery procedures using Recovery Appliance are identical to those used to recover a database within a conventional RMAN environment. The major difference is the use of a Recovery Appliance as the source for recovery data by configuring or allocating an RMAN channel that corresponds to the Recovery Appliance backup module.\nYou can use Enterprise Manager Cloud Control (Cloud Control) or RMAN to restore and recover protected databases.\nNote:\nWhen restoring archived encrypted backups from the cloud or tape, the Recovery Appliance needs to be present, because it accesses the OKV wallet with the requisite TDE keys for decryption.",
+  "source_uri": "https://docs.oracle.com/en/engineered-systems/zero-data-loss-recovery-appliance/23.1/ampdb/overview-restoring-and-recovering-data-recovery-appliance.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "zdlra",
+    "recovery-appliance",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

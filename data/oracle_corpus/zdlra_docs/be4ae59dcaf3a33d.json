@@ -1,0 +1,15 @@
+{
+  "title": "Maintaining the Recovery Appliance Hardware",
+  "text": "Maintaining the Recovery Appliance Hardware\nPrevious Next JavaScript must be enabled to correctly display this content\n13 Maintaining the Recovery Appliance Hardware\nThis chapter describes how to maintain the Recovery Appliance rack components. It contains the following topics:\nCautions and Warnings\nDetermining the Server Model\nPowering On and Off a Recovery Appliance Rack\nReplacing the Disk Controller Batteries\nReplacing a Power Distribution Unit\nResetting a Non-Responsive Oracle ILOM\nMaintaining the Compute Servers\nReimaging a Compute Server\nMaintaining the Storage Servers\nMaintaining the Physical Disks of Storage Servers\nMaintaining the Flash Disks of Storage Servers\nReplacing a Disk Controller Battery Backup Unit\nUsing the Storage Server Rescue Procedure\nSee Also:\nReplacement Units",
+  "source_uri": "https://docs.oracle.com/en/engineered-systems/zero-data-loss-recovery-appliance/23.1/amogd/maintaining-recovery-appliance-hardware.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "zdlra",
+    "recovery-appliance",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

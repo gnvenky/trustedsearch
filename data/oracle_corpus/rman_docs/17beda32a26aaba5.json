@@ -1,0 +1,16 @@
+{
+  "title": "Deprecated RMAN Syntax",
+  "text": "Deprecated RMAN Syntax\nPrevious Next JavaScript must be enabled to correctly display this content\nC Deprecated RMAN Syntax\nThis appendix describes Recovery Manager syntax that is deprecated and describes preferred syntax if any exists.\nDeprecated RMAN syntax continues to be supported in subsequent releases for backward compatibility. For example, the SET AUXNAME command replaced the SET CLONENAME command in Oracle8 i , and the CONFIGURE AUXNAME command replaced the SET AUXNAME command in Oracle9 i . However, you can continue to run both SET CLONENAME and SET AUXNAME in all subsequent RMAN releases.\nTable C-1 Deprecated RMAN Syntax\nDeprecated in Release Deprecated Syntax Preferred Current Syntax\n19c\nADVISE FAILURE\nn/a\n19c\nCHANGE FAILURE\nn/a\n19c\nLIST FAILURE\nn/a\n19c\nRECOVER ... SNAPSHOT TIME\nRECOVER ... UNTIL TIME\n19c\nREPAIR FAILURE\nn/a\n12.1\nALTER DATABASE\nn/a\n11.2.0\nCONFIGURE or SET COMPRESSION ALGORITHM 'ZLIB'\nCONFIGURE or SET COMPRESSION ALGORITHM 'MEDIUM'\n11.2.0\nCONFIGURE or SET COMPRESSION ALGORITHM 'BZIP2'\nCONFIGURE or SET COMPRESSION ALGORITHM 'BASIC'\n11.2.0\nV$FLASH_RECOVERY_AREA_USAGE\nV$RECOVERY_AREA_USAGE\n11.1.0\nCONVERT ON TARGET PLATFORM\nCONVERT ON DESTINATION PLATFORM\n11.1.0\nUNTIL RESTORE POINT\nTO RESTORE POINT\n11.1.0\nBACKUP ... AS STANDBY\nn/a\n11.1.0\n... KEEP [LOGS | NOLOGS]\n... KEEP\n11.1.0\nBLOCKRECOVER\nRECOVER\n10.0.1\nBACKUP ... INCREMENTAL LEVEL [2,3,4]\nLevels other than 0 and 1 are deprecated.\n10.0.1\nBACKUP ... PARMS\nCONFIGURE CHANNEL ... PARMS\n10.0.1\nCOPY\nBACKUP AS COPY\n10.0.1\nCREATE CATALOG TABLESPACE\nCREATE CATALOG\n10.0.1\nLIST ... BY BACKUP [SUMMARY]\nn/a\n10.0.1\nLIST ... VERBOSE\nn/a\n10.0.1\nRESTORE ... PARMS\nCONFIGURE CHANNEL ... PARMS\n10.0.1\nSEND ... PARMS\nCONFIGURE CHANNEL ... PARMS\n9.2\nREPLICATE\nRESTORE CONTROLFILE FROM ...\n9.2\nSET AUTOLOCATE\nEnabled by default\n9.0.1\nALLOCATE CHANNEL FOR DELETE\nn/a\n9.0.1\nALLOCATE CHANNEL ... TYPE\nCONFIGURE CHANNEL ... DEVICE TYPE\n9.0.1\nALLOCATE CHANNEL ... KBYTES\nCONFIGURE CHANNEL ... MAXPIECESIZE\n9.0.1\nALLOCATE CHANNEL ... READRATE\nCONFIGURE CHANNEL ... RATE\n9.0.1\n... ARCHIVELOG ... LOGSEQ\n... ARCHIVELOG ... SEQUENCE\n9.0.1\nBACKUP ... SETSIZE\nBACKUP ... MAXSETSIZE\n9.0.1\nCHANGE ... CROSSCHECK\nCROSSCHECK\n9.0.1\nCHANGE ... DELETE\nDELETE\n9.0.1\nREPORT ... AT LOGSEQ\nREPORT ... AT SEQUENCE\n9.0.1\nSET AUXNAME\nCONFIGURE AUXNAME\n9.0.1\nSET DUPLEX\nSET BACKUP COPIES\nCONFIGURE BACKUP COPIES\n9.0.1\nSET LIMIT CHANNEL ...\nALLOCATE CHANNEL ...\nCONFIGURE CHANNEL ...\n9.0.1\nSET SNAPSHOT\nCONFIGURE SNAPSHOT\n9.0.1\nUNTIL LOGSEQ (see untilClause )\nUNTIL SEQUENCE (see untilClause )\n8.1.7\nCONFIGURE COMPATIBLE\nn/a\n8.1.5\nALLOCATE CHANNEL CLONE\nCONFIGURE AUXILIARY CHANNEL\n8.1.5\nCHANGE ... VALIDATE\nCROSSCHECK\n8.1.5\nCLONE (see RMAN )\nAUXILIARY (see RMAN )\n8.1.5\nCONFIGURE CLONE\nCONFIGURE AUXILIARY\n8.1.5\nMSGLOG (see RMAN )\nLOG (see RMAN )\n8.1.5\nRCVCAT (see RMAN )\nCATALOG (see RMAN )",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/19/rcmrf/deprecated-rman-syntax.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

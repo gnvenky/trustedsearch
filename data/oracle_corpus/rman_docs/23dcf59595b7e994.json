@@ -1,0 +1,16 @@
+{
+  "title": "Online Reorganization and Redefinition",
+  "text": "Online Reorganization and Redefinition\nPrevious Next JavaScript must be enabled to correctly display this content\nOnline Reorganization and Redefinition\nOne way to enhance availability and manageability is to allow user access to the database during a data reorganization operation.\nThe Online Reorganization and Redefinition feature in Oracle AI Database offers administrators significant flexibility to modify the physical attributes of a table and transform both data and table structure while allowing user access to the database. This capability improves data availability, query performance, response time, and disk space usage. All of these are important in a mission-critical environment and make the application upgrade process easier, safer, and faster.\nUse Oracle AI Database online maintenance features to significantly reduce (or eliminate) the application downtime required to make changes to an application's database objects\nSee Also:\nRedefining Tables Online in Oracle AI Database Administrator\u2019s Guide",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/26/haovw/online-reorganization-and-redefinition.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

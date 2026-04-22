@@ -1,0 +1,15 @@
+{
+  "title": "Installing the Recovery Appliance Software",
+  "text": "Installing the Recovery Appliance Software\nPrevious Next JavaScript must be enabled to correctly display this content\n9 Installing the Recovery Appliance Software\nThis chapter describes the procedures for installing the Recovery Appliance software. It contains the following sections:\nAbout the Installation Software\nSoftware Installation Prerequisites\nReclaiming Disk Space on the Compute Servers\nInstalling the Software on Recovery Appliance\nInstall Utility Syntax\nSetting Up Enterprise Manager to Administer Recovery Appliance\nNote:\nRecovery Appliance software is supported only when installed on Recovery Appliance hardware. See the Zero Data Loss Recovery Appliance Licensing Information User Manual for information about software licensing.",
+  "source_uri": "https://docs.oracle.com/en/engineered-systems/zero-data-loss-recovery-appliance/23.1/amogd/installing-recovery-appliance-software.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "zdlra",
+    "recovery-appliance",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

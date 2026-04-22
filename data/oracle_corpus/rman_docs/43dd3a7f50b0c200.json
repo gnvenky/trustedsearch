@@ -1,0 +1,16 @@
+{
+  "title": "Edition-Based Redefinition",
+  "text": "Edition-Based Redefinition\nPrevious Next JavaScript must be enabled to correctly display this content\nEdition-Based Redefinition\nPlanned application changes may include changes to data, schemas, and programs. The primary objective of these changes is to improve performance, manageability, and functionality. An example is an application upgrade.\nEdition-based redefinition (EBR) lets you upgrade the database component of an application while it is in use, thereby minimizing or eliminating downtime. To upgrade an application while it is in use, you must copy the database objects that comprise the database component of the application and redefine the copied objects in isolation. Your changes do not affect users of the application; they can continue to run the unchanged application. When you are sure that your changes are correct, you make the upgraded application available to all users.\nSee Also:\nUsing Edition-Based Redefinition in Oracle AI Database Development Guide",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/26/haovw/edition-based-redefinition.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

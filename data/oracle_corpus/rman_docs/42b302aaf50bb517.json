@@ -1,0 +1,16 @@
+{
+  "title": "DROP CATALOG",
+  "text": "DROP CATALOG\nPrevious Next JavaScript must be enabled to correctly display this content\n2.18 DROP CATALOG\nPurpose\nUse the DROP CATALOG command to remove the recovery catalog.\nSee Also:\nOracle Database Backup and Recovery User\u2019s Guide to learn how to drop the recovery catalog\nPrerequisites\nExecute this command only at the RMAN prompt.\nYou must be connected to the recovery catalog schema with the CATALOG command-line option or the CONNECT CATALOG command. The recovery catalog database must be open.\nYou do not have to be connected to a target database.\nUsage Notes\nAfter you execute DROP CATALOG , RMAN prompts you to enter the command again to confirm that you want to perform the operation.\nTo bypass the command confirmation step, execute the DROP CATALOG command with the NOPROMPT option when you run it the first time.\nA base recovery catalog is created with CREATE CATALOG . To drop the base recovery catalog, execute DROP CATALOG while connected to the recovery catalog database as the recovery catalog owner.\nNote:\nWhen you drop the base recovery catalog, all RMAN metadata is removed from the recovery catalog. Any backups recorded in the recovery catalog but not in a target database control are not usable by RMAN.\nWhen connected to a virtual private catalog, the DROP CATALOG command does not remove the base recovery catalog itself, but only drops the security policies that are used to restrict user access to the base catalog..\nSyntax\ndropCatalog ::=\nDescription of the illustration dropcatalog.eps\nSemantics\nNOPROMPT Bypasses the confirmation step while dropping a catalog.",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/19/rcmrf/DROP-CATALOG.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

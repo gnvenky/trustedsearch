@@ -1,0 +1,15 @@
+{
+  "title": "Zero Data Loss Recovery Appliance 19.2 - Get Started",
+  "text": "Zero Data Loss Recovery Appliance 19.2 - Get Started\nGo to main content\nToggle navigation\nSign Out\nSign In\nSearch\nGet Started\nBooks\nAdditional Resources\nRelated Topics\nSearch\nHelp Center Home\nGet Started\nBooks\nAdditional Resources\nRelated Topics\nHome\nEngineered Systems\nZero Data Loss Recovery Appliance\nRelease 19.2\nZero Data Loss Recovery Appliance 19.2\nGet Started\nLearn about the Recovery Appliance\nThe Recovery Appliance protects your enterprise-wide database environment, eliminating data loss and backup overhead, while delivering Oracle-validated recoverability and cloud-ready scalability.\nIntroduction to the Recovery Appliance\nRack and Server Components\nInstall and Configure the Recovery Appliance\nOracle Advanced Customer Services (ACS) or Certified Recovery Appliance Partners from the Oracle Partner Network (OPN) perform installation and configuration.\nOracle Advanced Customer Service (ACS)\nOracle Partner Network (OPN) Recovery Appliance Partner Program\nHardware Installation and Configuration\nSite Requirements and Preparation\nSoftware Installation and Configuration\nMaintenance and Re-Configuration\nAdminister the Recovery Appliance\nThe Recovery Appliance administrator creates protection policies, associates them to databases, manages space, handles user accounts, and monitors operation.\nManaging Protection Policies\nCopying Backups to Tape\nArchiving Backups to the Cloud\nAccessing Recovery Appliance Reports\nMonitoring the Recovery Appliance\nDatabase Backup & Recovery\nDatabase backup administrators configure a database to send backups to the Recovery Appliance and handle recovery operations from the Recovery Appliance.\nConfigure Protected Databases\nBackup Protected Databases\nRecover Databases\nBack to main content\nAbout Oracle\nContact Us\nTerms of Use and Privacy\nCopyright \u00a9 2022, Oracle and/or its affiliates.",
+  "source_uri": "https://docs.oracle.com/en/engineered-systems/zero-data-loss-recovery-appliance/19.2/index.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "zdlra",
+    "recovery-appliance",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

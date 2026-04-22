@@ -1,0 +1,16 @@
+{
+  "title": "Preface",
+  "text": "Preface\nPrevious Next JavaScript must be enabled to correctly display this content\nPreface\nThis preface contains these topics:\nAudience\nDocumentation Accessibility\nRelated Documentation\nConventions\nAudience\nBackup and Recovery Reference is intended for database administrators who perform the following tasks:\nUse Recovery Manager (RMAN) to back up, restore, and recover Oracle databases\nPerform maintenance on RMAN backups of database files\nTo use this document, you must know the following:\nRelational database concepts and basic database administration as described in Oracle Database Concepts and the Oracle Database Administrator's Guide\nRMAN concepts and tasks as described in Oracle Database Backup and Recovery User's Guide\nThe operating system environment under which you run Oracle Database\nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility Program website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc .\nAccess to Oracle Support\nOracle customers that have purchased support have access to electronic support through My Oracle Support. For information, visit http://www.oracle.com/pls/topic/lookup?ctx=acc&id=info or visit http://www.oracle.com/pls/topic/lookup?ctx=acc&id=trs if you are hearing impaired.\nRelated Documentation\nFor more information, see these Oracle resources:\nOracle Database Backup and Recovery User's Guide\nOracle Database Reference\nOracle Database Utilities\nMany of the examples in this book use the sample schemas of the seed database, which is installed by default when you install Oracle. Refer to Oracle Database Sample Schemas for information on how these schemas were created and how you can use them yourself.\nConventions\nThe text in this reference adheres to the following conventions:\nUPPERCASE monospace\nRMAN keywords, SQL keywords, column headings in tables and views, and initialization parameters.\nlowercase monospace\nVariable text in RMAN examples.\nitalics\nRMAN or SQL placeholders, that is, text that should not be entered as is, but represents a value to be entered by the user.\nSee Also:\nAbout RMAN Commands for more information about RMAN conventions",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/19/rcmrf/preface.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

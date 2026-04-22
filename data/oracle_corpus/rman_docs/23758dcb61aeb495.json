@@ -1,0 +1,16 @@
+{
+  "title": "Oracle Database Backup and Recovery User's Guide, 19c",
+  "text": "Oracle Database Backup and Recovery User's Guide, 19c\nPrevious Next JavaScript must be enabled to correctly display this content\nOracle\u00ae Database\nBackup and Recovery User's Guide\n19c\nE96241-23\nOctober 2025\nTitle and Copyright Information\nOracle Database Backup and Recovery User's Guide, 19c\nE96241-23\nCopyright \u00a9 2024,2025,\nOracle and/or its affiliates.\nPrimary Author: Ramya P\nContributors: Prakash Jashnani, K. Weill, L. Ashdown, T. Bednar, A. Beldalker, T. Chien, M. Dilman, S. Fogel, R. Guzman, S. Haisley, W. Hu, A. Hwang, A. Joshi, V. Krishnaswamy, J. W. Lee, V. Moore, M. Olagappan, V. Panteleenko, S. Ranganathan, F. Sanchez, Kelly D. Smith, V. Srihari, M. Susairaj, M. Stewart, S. Wertheimer, W. Yang, R. Zijlstra",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/19/bradv/index.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

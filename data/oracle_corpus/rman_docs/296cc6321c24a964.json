@@ -1,0 +1,16 @@
+{
+  "title": "Fleet Patching and Provisioning",
+  "text": "Fleet Patching and Provisioning\nPrevious Next JavaScript must be enabled to correctly display this content\nFleet Patching and Provisioning\nFleet Patching and Provisioning maintains a space-efficient repository of software, more precisely \"gold images,\" which are standardized software homes that can be provisioned to any number of target machines.\nAny number of homes can be provisioned from a given gold image, and Fleet Patching and Provisioning maintains lineage information so that the provenance of deployed software is always known. Gold images can be organized into series, allowing you to create groupings that track the evolution of a release, with different series for different tailored solutions such as Oracle AI Database patch bundles for specific applications. A notification system informs interested parties when a new image is available in a given series. Fleet Patching and Provisioning is a feature of Oracle Grid Infrastructure. The components that form the Fleet Patching and Provisioning Server are managed automatically by Oracle Grid Infrastructure.\nFleet Patching and Provisioning can provision databases, clusterware, middleware, and custom software. Fleet Patching and Provisioning offers additional features for creating, configuring, patching and upgrading Oracle Grid Infrastructure and Oracle AI Database deployments. These capabilities simplify maintenance, reducing its risk and impact, and provide a roll-back option if changes need to be backed out. Additional capabilities include provisioning clusters and databases onto base machines, and simple capacity on demand by growing and shrinking clusters and Oracle RAC databases. All of these operations are performed with single commands which replace the numerous manual steps otherwise required. All commands and their outcomes are recorded in an audit log. All workflows allow customization to support the unique requirements of any environment.\nThe key benefits of Fleet Patching and Provisioning are:\nEnables and enforces standardization\nSimplifies provisioning, patching and upgrading\nMinimizes the impact and risk of maintenance\nIncreases automation and reduces touch points\nSupports large scale deployments\nSee Also:\nFleet Patching and Provisioning and Maintenance in Oracle Clusterware Administration and Deployment Guide\nOracle Fleet Patching and Provisioning (FPP) Introduction and Technical Overview",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/26/haovw/fleet-patching-and-provisioning.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

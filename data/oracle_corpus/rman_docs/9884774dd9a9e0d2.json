@@ -1,0 +1,16 @@
+{
+  "title": "DELETE SCRIPT",
+  "text": "DELETE SCRIPT\nPrevious Next JavaScript must be enabled to correctly display this content\n2.16 DELETE SCRIPT\nPurpose\nUse the DELETE SCRIPT command to delete a local or global stored script from the recovery catalog.\nPrerequisites\nExecute DELETE SCRIPT only at the RMAN prompt. RMAN must be connected to a recovery catalog and target database. The recovery catalog database must be open.\nUsage Notes\nA stored script may be local or global. A local script is created for the current target database only, whereas a global script is available for use with any database registered in the recovery catalog.\nIf GLOBAL is specified, then a global script with this name must exist in the recovery catalog; otherwise, RMAN returns error RMAN-06710 . If you do not specify GLOBAL , then RMAN looks for a local stored script with the specified name defined on the current target database. If no such script is defined on the target database, then RMAN checks for a global stored script with this name and deletes it if it exists.\nSyntax\ndeleteScript ::=\nDescription of the illustration deletescript.eps\nSemantics\nSyntax Element Description\nGLOBAL\nIdentifies the script as global.\nIf you attempt to delete a global script, then RMAN must not be connected to a virtual private catalog. Virtual catalog users cannot modify global scripts, although they can execute them.\nSee Also: \" Usage Notes \" for an explanation of the difference between global and local scripts\nSCRIPT script_name\nSpecifies the name of the script to delete. Quotes must be used around the script name when the name contains either spaces or reserved words.\nExample\nExample 2-81 Deleting a Global Script\nThis example deletes global script backup_db from the recovery catalog (sample output included):\nRMAN> LIST SCRIPT NAMES; List of Stored Scripts in Recovery Catalog Scripts of Target Database PROD Script Name Description ----------------------------------------------------------------------- backup_whole backup whole database and archived redo log files Global Scripts Script Name Description ----------------------------------------------------------------------- global_backup_db back up any database from the recovery catalog, with logs RMAN> DELETE GLOBAL SCRIPT global_backup_db; deleted global script: global_backup_db RMAN> LIST SCRIPT NAMES; List of Stored Scripts in Recovery Catalog Scripts of Target Database PROD Script Name Description ----------------------------------------------------------------------- backup_whole backup whole database and archived redo log files",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/19/rcmrf/DELETE-SCRIPT.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

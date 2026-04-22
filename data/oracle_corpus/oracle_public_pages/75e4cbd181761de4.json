@@ -1,0 +1,15 @@
+{
+  "title": "Oracle MAA Best Practices - Zero Data Loss Recovery Appliance",
+  "text": "Oracle MAA Best Practices - Zero Data Loss Recovery Appliance\nSkip to content\nAccessibility Policy\nMenu\nQUICK LINKS\nCloud\nDatabase\nJava\nAI\nSUGGESTED LINKS\nSUGGESTED SEARCHES\nCountry\nBack\nCloud Account Sign in to Cloud Sign Up for Free Cloud Tier\nOracle Account\nSign-In\nCreate an Account\nHelp\nSign Out\nDatabase\nTechnologies\nHigh Availability\nOracle MAA Best Practices - Zero Data Loss Recovery Appliance\nMAA Best Practices - Zero Data Loss Recovery Appliance\nOverview\nOverview and Benefits (PDF)\nMaintenance and Operational Best Practices (PDF) - Updated\nOracle Documentation\nPerformance Results from a Customer Proof of Concept (PDF)\nRestore Performance Proof of Concept (PDF)\nHigh Availability and Disaster Recovery\nHigh Availability for Backup and Recovery Overview (PDF) - New\nConfiguring High Availability ZDLRA Client for Backup and Recovery (Doc ID 2432144.1) - New\nDeploying Zero Data Loss Recovery Appliance in a Data Guard Configuration (PDF)\nHA Features Demo Part I (Video)\nHA Features Demo Part II (Video)\nSupport and Troubleshooting\nMaintenance and Operational Best Practices (PDF)\nInformation Center (Doc ID 1683791.2)\nTroubleshooting Methodology (Doc ID 2408256.1)\nZero Data Loss Recovery Appliance SR Data Collection (Doc ID 2154189.1)\nZero Data Loss Recovery Appliance Supported Versions (Doc ID 1927416.1)\nZero Data Loss Recovery Appliance Critical Issues (Doc ID 1927928.1)\nMigration\nCross Platform Database Migration Overview (PDF) - New\nCross Platform Database Migration using ZDLRA (Doc ID 2460552.1) (PDF) - New\n\u00a9 2026 Oracle\nPrivacy / Do Not Sell My Info\nAd Choices\nCareers\nIntegrity Helpline\nContact Us\nFacebook\nX\nLinkedIn\nYouTube",
+  "source_uri": "https://www.oracle.com/database/technologies/high-availability/zero-data-loss-recovery-appliance.html",
+  "source_type": "oracle_public_page",
+  "tags": [
+    "maa",
+    "best-practices",
+    "oracle-public"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

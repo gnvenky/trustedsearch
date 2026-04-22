@@ -1,0 +1,16 @@
+{
+  "title": "Oracle Restart",
+  "text": "Oracle Restart\nPrevious Next JavaScript must be enabled to correctly display this content\nOracle Restart\nOracle Restart enhances the availability of a single-instance (nonclustered) Oracle database and its components.\nOracle Restart is used in single-instance environments only. For Oracle Real Application Clusters (Oracle RAC) environments, the functionality to automatically restart components is provided by Oracle Clusterware.\nIf you install Oracle Restart, it automatically restarts the database, the listener, and other Oracle components after a hardware or software failure or whenever the database's host computer restarts. It also ensures that the Oracle components are restarted in the proper order, in accordance with component dependencies.\nOracle Restart periodically monitors the health of components\u2014such as SQL*Plus, the Listener Control utility (LSNRCTL), ASMCMD, and Oracle Data Guard\u2014that are integrated with Oracle Restart. If the health check fails for a component, Oracle Restart shuts down and restarts the component.\nOracle Restart runs out of the Oracle Grid Infrastructure home, which you install separately from Oracle AI Database homes.\nIntegrated client failover applications depend on role based services and Fast Application Notification events, managed by Oracle clusterware, to alert the application to failures. Single instance databases must have Oracle Restart to achieve integrated client failover.\nSee Also:\nOracle AI Database Administrator\u2019s Guide for information about installing and configuring the Oracle Restart feature",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/26/haovw/oracle-restart.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

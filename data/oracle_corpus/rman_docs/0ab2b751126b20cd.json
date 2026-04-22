@@ -1,0 +1,16 @@
+{
+  "title": "Preface",
+  "text": "Preface\nPrevious Next JavaScript must be enabled to correctly display this content\nPreface\nThis preface contains the following topics:\nAudience\nDocumentation Accessibility\nRelated Documentation\nConventions\nAudience\nBackup and Recovery User's Guide is intended for database administrators who perform the following tasks:\nBack up, restore, and recover Oracle databases\nPerform maintenance on backups of database files\nTransfer data between a file system and Oracle Automatic Storage Management or between platforms when installing Oracle Database\nTo use this document, you must know the following:\nRelational database concepts and basic database administration as described in Oracle Database Concepts and the Oracle Database Administrator's Guide\nThe operating system environment under which you run the database\nDocumentation Accessibility\nFor information about Oracle's commitment to accessibility, visit the Oracle Accessibility Program website at http://www.oracle.com/pls/topic/lookup?ctx=acc&id=docacc .\nAccess to Oracle Support\nOracle customers that have purchased support have access to electronic support through My Oracle Support. For information, visit http://www.oracle.com/pls/topic/lookup?ctx=acc&id=info or visit http://www.oracle.com/pls/topic/lookup?ctx=acc&id=trs if you are hearing impaired.\nRelated Documentation\nFor more information about backup and recovery, see these Oracle resources:\nOracle Database Backup and Recovery Reference\nOracle Database Utilities\nOracle Automatic Storage Management Administrator's Guide\nYou can access information about the Backup Solutions Program (BSP) at\nhttp://www.oracle.com/technetwork/database/features/availability/bsp-088814.html\nMany books in the documentation set use the sample schemas of the seed database, which is installed by default when you install Oracle Database. Refer to Oracle Database Sample Schemas for information about how these schemas were created and how you can use them yourself.\nConventions\nThe following text conventions are used in this document:\nConvention Meaning\nboldface\nBoldface type indicates graphical user interface elements associated with an action, or terms defined in text or the glossary.\nitalic\nItalic type indicates book titles, emphasis, or placeholder variables for which you supply particular values.\nmonospace\nMonospace type indicates commands within a paragraph, URLs, code in examples, text that appears on the screen, or text that you enter.",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/19/bradv/preface.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "About the Recovery Appliance",
+  "text": "About the Recovery Appliance\nPrevious Next JavaScript must be enabled to correctly display this content\nAbout the Recovery Appliance\nThe Oracle Zero Data Loss Recovery Appliance is an engineered data protection solution that helps eliminate Oracle database data loss exposure throughout an organization. Changes to mission-critical databases are logged to Recovery Appliance as they occur, enabling customers to recover protected databases to within less than a second of when an outage or ransomware attack occurs. An automated, incremental-only approach to backups with validation on Recovery Appliance eliminates the need for time-consuming full backups and frees database server and administrative resources for production work. Recovery automation, backup immutability, and a high-availability architecture help organizations meet government requirements for protecting and rapidly recovering crucial data.\nThe Database Delta Push technology enables Oracle DBAs to run one full Recovery Manager (RMAN) backup (Level 0), and thereafter run only incremental backups (Level 1), from each database to the Recovery Appliance . There are no recurring full backups, tape backups, or RMAN backup deletion, validation, and maintenance commands.\nIn the event of a disaster, DBAs can recover any database to any point in time in the recovery window or within subseconds of the current time. The Database Delta Store virtual full backup technology constructs physical backups from the resident incremental blocks, in response to RMAN database restore requests.\nYou can easily and quickly replicate backups on a local Recovery Appliance over a secure network to a remote Recovery Appliance for protection against server or site outage. Only the changed blocks are replicated. Virtual full backups on the remote Recovery Appliance are available for database restore operations.\nAutonomous tape archives further protect against site disasters. Recovery Appliance automates the copying of virtual full or incremental backups to tape, for long-term retention and archival purposes. Recovery Appliance is preinstalled with tape backup software and support for an optional 16 Gb fiber channel card on each compute server, to connect directly to the tape hardware.\nYou can manage this entire infrastructure with end-to-end visibility into the status of data protection to ensure that data can be recovered successfully at any time. The primary administrative tools are Oracle Enterprise Manager Cloud Control and the RMAN command interface.",
+  "source_uri": "https://docs.oracle.com/en/engineered-systems/zero-data-loss-recovery-appliance/23.1/amogd/recovery-appliance.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "zdlra",
+    "recovery-appliance",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

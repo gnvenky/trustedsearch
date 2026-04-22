@@ -1,0 +1,16 @@
+{
+  "title": "Oracle Database Backup and Recovery Reference, 19c",
+  "text": "Oracle Database Backup and Recovery Reference, 19c\nPrevious Next JavaScript must be enabled to correctly display this content\nOracle\u00ae Database\nBackup and Recovery Reference\n19c\nE96242-14\nJune 2025\nTitle and Copyright Information\nOracle Database Backup and Recovery Reference, 19c\nE96242-14\nCopyright \u00a9 2024,2025,\nOracle and/or its affiliates.\nPrimary Authors: Ramya P, Padmaja Potineni\nContributors: K. Weill, L. Ashdown, T. Bednar, A. Beldalker, T. Chien, M. Dilman, S. Dizdar, W. Fisher, S. Fogel, R. Guzman, S. Haisley, W. Hu, A. Hwang, A. Joshi, V. Krishnaswamy, J. W. Lee, V. Moore, S. Nagaraja Rao, M. Olagappan, V. Panteleenko, B. Patel, C. Pedregal-Martin, S. Ranganathan, S. Samaranayake, F. Sanchez, V. Schupmann, V Srihari, M. Susairaj, M. Stewart, M. Townsend, S. Wertheimer, W. Yang, R. Zijlstra",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/19/rcmrf/index.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

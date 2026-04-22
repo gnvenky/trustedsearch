@@ -1,0 +1,16 @@
+{
+  "title": "@@ (double at sign)",
+  "text": "@@ (double at sign)\nPrevious Next JavaScript must be enabled to correctly display this content\n2.2 @@ (double at sign)\nPurpose\nUse the @@ command to execute a series of RMAN commands stored in an operating system file with the specified file name.\nIf @@ is contained in a command file, then @@ filename directs RMAN to look for the specified file name in the same directory as the command file from which it was called. If not used within a command file, the @@ command is identical to the @ (at sign) command.\nPrerequisites\nThe command file must contain complete RMAN commands.\nUsage Notes\nThe command file is local to the RMAN client. The name resolution of the file is dependent on the operating system. For example, @tmp/cmd1.rman in UNIX or Windows means that tmp is a subdirectory of the current directory and that the file cmd1.rman is in this subdirectory.\nTo illustrate the differences between the @ and @@ commands, assume that you invoke RMAN as follows:\n% rman TARGET / RMAN> @/tmp/cmd1.rman\nAssume that the command @@cmd2.rman appears inside the cmd1.rman script. In this case, the @@ command directs RMAN to search for the file cmd2.rman in the directory /tmp .\nAs with the @ command, you can specify substitution variables in a command file and then pass values to the command file during execution of @@ (see Example 2-4 ).\nSyntax\n@@ ::=\nDescription of the illustration atat.eps\nSemantics\nSyntax Element Description\nfilename\nSpecifies the name of a command file, for example, @@cmd2.rman .\nExample\nExample 2-4 Calling a Command File Within Another Command File\nThe following operating system commands create command files backup_logs.rman and backup_db.rman :\n% echo \"BACKUP ARCHIVELOG ALL;\" > /tmp/bkup_logs.rman % echo \"BACKUP TAG &1 DATABASE;\" > /tmp/bkup_db.rman % echo \"@@bkup_logs.rman\" >> /tmp/bkup_db.rman\nThe following example starts RMAN from the command line and connects to the target database with operating system authentication. The @ command executes bkup_db.rman , which contains the command @@bkup_logs.rman . The @@ command looks for the bkup_logs.rman script in the same directory in which bkup_db.rman is located. The example uses a substitution variable to specify the tag WHOLE_DB for the database backup.\n% rman TARGET / RMAN> @/tmp/bkup_db.rman whole_db",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/19/rcmrf/double-at-sign.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

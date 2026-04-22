@@ -1,0 +1,15 @@
+{
+  "title": "Storage Management for the Recovery Appliance",
+  "text": "Storage Management for the Recovery Appliance\nPrevious Next JavaScript must be enabled to correctly display this content\n19 Storage Management for the Recovery Appliance\nThe Oracle Zero Data Loss Recovery Appliance has manages its storage space for backups with these main controls.\nDisk Reserved Space\nDISK_RESERVED_SPACE is a database attribute that allows you to manually provision the amount of space needed to hold backups for your database. As long as this is large enough to hold all your backups, the value set by RECOVER_WINDOW_GOAL in the protection policy will be safely maintained.\nIf space is available on the Recovery Appliance , you may exceed your DISK_RESERVED_SPACE needs to help maintain your RECOVER_WINDOW_GOAL .\nBy managing these value carefully, you can ensure your most important databases always have enough space to meet their goal.\nLess important databases can be limited to ensure more important databases get their needs met. A database that is being limited is trimmed first by reducing the number of days of backups that are being hosted, but if only one complete back exists and this database is still above its RECOVER_WINDOW_GOAL . If these conditions are met, then the oldest pieces are simply removed until Recovery Appliance usage is corrected. This will break recovery for that database.\nAutotune Reserve Space\nWith AUTOTUNE_RESERVED_SPACE set to YES in the protection policy, databases in the protection policy are treated equally. The DISK_RESERVED_SPACE value for each database is automatically managed. When space runs out on the Recovery Appliance , all databases may lose some backups.\nRecovery Window Compliance\nRECOVER_WINDOW_COMPLIANCE guarantees the requested window of backups is always maintained. In this case DISK_RESERVED_SPACE must be carefully maintained, because if there is insufficient space on the Recovery Appliance to meet RECOVER_WINDOW_COMPLIANCE of backups, new backups are rejected until old backups age out of the recover window.\nWith AUTOTUNE_RESERVED_SPACE and RECOVER_WINDOW_COMPLIANCE used together, new backups may be rejected, but only when the whole Recovery Appliance is unable to accomodate the new backups.",
+  "source_uri": "https://docs.oracle.com/en/engineered-systems/zero-data-loss-recovery-appliance/23.1/amagd/storage-management.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "zdlra",
+    "recovery-appliance",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

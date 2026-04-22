@@ -1,0 +1,16 @@
+{
+  "title": "RMAN Commands: @ (at sign) to QUIT",
+  "text": "RMAN Commands: @ (at sign) to QUIT\nPrevious Next JavaScript must be enabled to correctly display this content\n2 RMAN Commands: @ (at sign) to QUIT\nThis chapter describes RMAN commands in alphabetical order. For a summary of the RMAN commands and command-line options, refer to \" Summary of RMAN Commands \" .\n@ (at sign)\n@@ (double at sign)\nADVISE FAILURE\nALLOCATE CHANNEL\nALLOCATE CHANNEL FOR MAINTENANCE\nBACKUP\nCATALOG\nCHANGE\nCONFIGURE\nCONNECT\nCONVERT\nCREATE CATALOG\nCREATE SCRIPT\nCROSSCHECK\nDELETE\nDELETE SCRIPT\nDESCRIBE\nDROP CATALOG\nDROP DATABASE\nDUPLICATE\nEXECUTE SCRIPT\nEXIT\nFLASHBACK DATABASE\nGRANT\nHOST\nIMPORT CATALOG\nLIST\nPRINT SCRIPT\nQUIT",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/19/rcmrf/rman-commands-at-sign-to-quit.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

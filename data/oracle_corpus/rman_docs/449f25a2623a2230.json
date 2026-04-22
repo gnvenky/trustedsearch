@@ -1,0 +1,16 @@
+{
+  "title": "@ (at sign)",
+  "text": "@ (at sign)\nPrevious Next JavaScript must be enabled to correctly display this content\n2.1 @ (at sign)\nPurpose\nUse the @ command to execute a series of RMAN commands stored in an operating system file with the specified path name.\nNote:\nThe file must contain complete RMAN commands. Partial commands generate syntax errors.\nPrerequisites\nThe command file must contain complete RMAN commands.\nIf you use the @ command within a RUN command, then the @ command must be on its own line (see Example 2-2 ).\nUsage Notes\nRMAN processes the file as though its contents were entered instead of the @ command. As shown in Example 2-3 , you can specify substitution variables in a command file and then pass values to the command file during execution.\nSee Also:\nRMAN to learn more about using substitution variables in RMAN\nSyntax\n@ ::=\n.eps\nSemantics\nSyntax Element Description\nfilename\nSpecifies the name of a command file, for example, @/oracle/dbs/cmd/cmd1.rman . If you do not specify the absolute path name, then the current working directory is assumed, for example, @cmd1.rman .\nAny file extension (or no file extension) is valid. Do not use quotes around the string or leave whitespace between the @ keyword and the file name.\nExamples\nExample 2-1 Running a Command File from the Operating System Command Line\nThis example creates an RMAN command file and then executes it from the operating system command line.\n% echo \"BACKUP DATABASE;\" > backup_db.rman % rman TARGET / @backup_db.rman\nExample 2-2 Running a Command File Within RMAN\nThis example shows how you can execute a command file from the RMAN prompt and from within a RUN command. User-entered text appears in bold.\nRMAN> @backup_db.rman RMAN> RUN { 2> @backup_db.rman 3> backup database; 4> **end-of-file** 5> }\nExample 2-3 Specifying Substitution Variables\nSuppose that you use a text editor to create command file whole_db.rman with the following contents:\n# name: whole_db.rman BACKUP TAG &1 COPIES &2 DATABASE; EXIT;\nThe following example starts RMAN from the operating system prompt and connects to the target database. The example then runs the @ command, passing variables to the command file to create two database backups with tag Q106 :\n% rman TARGET / RMAN> @/tmp/whole_db.rman Q106 2",
+  "source_uri": "https://docs.oracle.com/en/database/oracle/oracle-database/19/rcmrf/at-sign.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "rman",
+    "backup",
+    "recovery",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

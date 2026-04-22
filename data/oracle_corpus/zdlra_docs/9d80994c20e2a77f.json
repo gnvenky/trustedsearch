@@ -1,0 +1,15 @@
+{
+  "title": "Copying Backups to Tape with Recovery Appliance",
+  "text": "Copying Backups to Tape with Recovery Appliance\nPrevious Next JavaScript must be enabled to correctly display this content\n9 Copying Backups to Tape with Recovery Appliance\nThis chapter explains how to copy completed backups to tape to ensure optimal utilization of space and storage resources on Zero Data Loss Recovery Appliance.\nThis chapter contains the following topics:\nAbout Copying Backups to Tape with Recovery Appliance\nCreating Tape Backup Job Components\nManaging Tape Backup Job Components\nCreating a Tape Backup Job\nManaging a Tape Backup Job\nScheduling a Tape Backup Job\nPausing and Resuming Tape Backup Operations\nViewing the Status of Tape Backup Operations",
+  "source_uri": "https://docs.oracle.com/en/engineered-systems/zero-data-loss-recovery-appliance/23.1/amagd/copying-backups-tape-recovery-appliance.html",
+  "source_type": "oracle_docs",
+  "tags": [
+    "zdlra",
+    "recovery-appliance",
+    "oracle-docs"
+  ],
+  "acl_groups": [
+    "oracle",
+    "dba"
+  ]
+}

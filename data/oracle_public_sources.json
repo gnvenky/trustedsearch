@@ -1,0 +1,77 @@
+{
+  "description": "Curated public Oracle sources for RMAN and ZDLRA crawling.",
+  "groups": [
+    {
+      "name": "rman_docs",
+      "source_type": "oracle_docs",
+      "max_pages": 40,
+      "allow_domains": ["docs.oracle.com"],
+      "allow_prefixes": [
+        "https://docs.oracle.com/en/database/oracle/oracle-database/19/bradv/",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/19/rcmrf/",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/23/bkupr/",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/26/haovw/"
+      ],
+      "seed_urls": [
+        "https://docs.oracle.com/en/database/oracle/oracle-database/19/bradv/index.html",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/19/rcmrf/",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/23/bkupr/bkupr_recovery_appliance.html",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/26/haovw/zero-data-loss-recovery-appliance.html"
+      ],
+      "tags": ["rman", "backup", "recovery", "oracle-docs"]
+    },
+    {
+      "name": "zdlra_docs",
+      "source_type": "oracle_docs",
+      "max_pages": 50,
+      "allow_domains": ["docs.oracle.com"],
+      "allow_prefixes": [
+        "https://docs.oracle.com/en/engineered-systems/zero-data-loss-recovery-appliance/23.1/amagd/",
+        "https://docs.oracle.com/en/engineered-systems/zero-data-loss-recovery-appliance/23.1/amogd/",
+        "https://docs.oracle.com/en/engineered-systems/zero-data-loss-recovery-appliance/"
+      ],
+      "seed_urls": [
+        "https://docs.oracle.com/en/engineered-systems/zero-data-loss-recovery-appliance/",
+        "https://docs.oracle.com/en/engineered-systems/zero-data-loss-recovery-appliance/23.1/amagd/best-practices.html",
+        "https://docs.oracle.com/en/engineered-systems/zero-data-loss-recovery-appliance/23.1/amogd/recovery-appliance.html"
+      ],
+      "tags": ["zdlra", "recovery-appliance", "oracle-docs"]
+    },
+    {
+      "name": "oracle_public_pages",
+      "source_type": "oracle_public_page",
+      "max_pages": 10,
+      "allow_domains": ["oracle.com", "www.oracle.com"],
+      "allow_prefixes": [
+        "https://www.oracle.com/database/technologies/high-availability/",
+        "https://www.oracle.com/engineered-systems/zero-data-loss-recovery-appliance/"
+      ],
+      "seed_urls": [
+        "https://www.oracle.com/database/technologies/high-availability/zero-data-loss-recovery-appliance.html",
+        "https://www.oracle.com/engineered-systems/zero-data-loss-recovery-appliance/technologies/"
+      ],
+      "tags": ["maa", "best-practices", "oracle-public"]
+    },
+    {
+      "name": "oracle_blogs",
+      "source_type": "oracle_blog",
+      "max_pages": 20,
+      "allow_domains": ["blogs.oracle.com"],
+      "allow_prefixes": [
+        "https://blogs.oracle.com/maa/",
+        "https://blogs.oracle.com/infrastructure/",
+        "https://blogs.oracle.com/database/"
+      ],
+      "seed_urls": [
+        "https://blogs.oracle.com/maa/zdlra-10-hidden-in-plain-sight-innovations",
+        "https://blogs.oracle.com/infrastructure/zdlra-endtoend-encryption",
+        "https://blogs.oracle.com/maa/oracle-database-23ai-rman-part-1",
+        "https://blogs.oracle.com/maa/oracle-database-23ai-recovery-manager-rman-new-features-part-2-celebrating-three-decades-of-data-protection-more",
+        "https://blogs.oracle.com/maa/post/very-large-database-backup-and-recovery-best-practices-part-2",
+        "https://blogs.oracle.com/infrastructure/zdlra-logical-airgap",
+        "https://blogs.oracle.com/database/oracle-reinvents-database-protection-with-zero-data-loss-recovery-appliance"
+      ],
+      "tags": ["oracle-blogs", "rman", "zdlra", "data-protection"]
+    }
+  ]
+}
